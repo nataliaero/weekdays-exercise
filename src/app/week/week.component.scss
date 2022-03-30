@@ -1,0 +1,18 @@
+.week-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 16px;
+  margin: 32px;
+  background-image: linear-gradient(
+    to right,
+    rgb(30, 141, 200),
+    rgb(0, 219, 180)
+  );
+  width: 850px;
+}
+
+.day-container {
+  margin: 16px 8px;
+}

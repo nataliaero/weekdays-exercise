@@ -1,0 +1,26 @@
+$day-size: 100px;
+$day-color: white;
+
+:host {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: $day-size;
+  height: $day-size;
+  font-size: 32px;
+  border-radius: 50%;
+  color: $day-color;
+}
+
+.dashed {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='100' ry='100' stroke='white' stroke-width='6' stroke-dasharray='14' stroke-dashoffset='100' stroke-linecap='butt'/%3e%3c/svg%3e");
+}
+
+.solid {
+  border: 3px solid $day-color;
+}
